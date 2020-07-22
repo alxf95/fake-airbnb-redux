@@ -1,0 +1,21 @@
+body {
+  font-family: Helvetica;
+}
+
+.flat-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flat {
+  height: 320px;
+  flex: 40% 0 0;
+}
+
+.selected {
+  color: red !important;
+}
+
+.image {
+  cursor: pointer;
+}
