@@ -21,7 +21,7 @@ class Flat extends Component {
           <img src={this.props.flat.imageUrl} alt={this.props.flat.name} />
         </div>
         <div className="content">
-          <a className={classes} onClick={this.handleClick}>
+          <a className={classes} onClick={this.handleClick} href="/">
             {this.props.flat.name}
           </a>
           <div className="description">

@@ -6,7 +6,6 @@ class Map extends Component {
   render() {
     let marker = null;
     let center = { lat: 48.856614, lng: 2.352222 };
-    console.log(this.props.selectedFlat);
     if (this.props.selectedFlat) {
       marker = (
         <div
